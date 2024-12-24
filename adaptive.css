@@ -1,0 +1,145 @@
+@media (max-width: 767px) {
+    .hcost {
+        margin-top: 71vw;
+        left: 33vw;
+        position: absolute;
+        width: 20vw;
+        animation-name: dog;
+        animation-duration:1.9s;
+        animation-iteration-count: infinite;
+        animation-delay: 1.2s;
+        animation-direction: alternate;
+       
+      }
+    
+
+
+      .block1 {
+        text-align: center;
+        align-items: center;
+        margin-top: 2vw;
+        justify-content: center;
+        display: flex;
+        flex-direction:column ;
+      }
+
+      .dog_txt h1  {
+        margin-bottom: 5vw;
+        font-size: 10vw;
+        font-family: "montserrat-alternates";
+    
+    color: rgb(255, 255, 255);
+      }
+    .dog_flex img{
+      margin-top: 3vw;
+        width: 80vw;
+    }
+    .oblaka_1{
+      top: 135vw;
+      left: 1vw;
+      width: 95vw;
+      z-index: -1;
+      position: absolute;
+      opacity: 0.8;
+    }
+    .oblaka_2{
+      display: none;
+      opacity: 0.8;
+      top: 110vw;
+      left: 15vw;
+      width: 65vw;
+      z-index: -1;
+      position: absolute;
+    }
+
+    .dog_txt p  {
+      font-size: 7vw;
+    }
+    .glaz1 {
+      left: 53.747vw;
+      top: 90.759vw;
+    }
+    .glaz2 {
+      left: 42.747vw;
+      top: 90.759vw;
+    }
+ 
+    
+
+
+
+
+
+
+
+
+
+
+    .t1 {
+      top:  95vw;;
+      left: 43.5vw;
+    }
+    .t2 {
+        top: 53vw;
+        left: 38vw;
+    }
+    .t3 {
+      left: -25vw;
+      transform: rotate(-25.05deg);
+      top: 48vw;
+    
+    }
+    .t4 {
+      left: -30vw;
+    
+      top: 78vw;
+    }
+    
+    .timg1 {
+      width: 11.73vw;
+      top:  236vw;;
+      left: 10vw;
+      position: absolute;
+      animation-duration: 2s;
+      animation-direction: alternate;
+      animation-iteration-count: infinite;
+      animation-name: toy1 ;
+    }
+    
+    
+    .timg2 {
+      width: 17vw;
+      top:  270vw;;
+      left: 7vw;
+      position: absolute;
+      animation-duration: 2s;
+      animation-direction: alternate;
+      animation-iteration-count: infinite;
+      animation-name: toy2mob ;
+    }
+ 
+    
+    .timg3{ animation-duration: 0.5s;
+      animation-direction: alternate;
+      animation-iteration-count: infinite;
+      animation-name: toy3mob ;
+      width:  18.38vw;
+      top:  231vw;;
+      left: 74vw;
+      position: absolute;
+    }
+   
+    .timg4 {
+      animation-duration: 2.2s;
+      animation-direction: alternate;
+      animation-iteration-count: infinite;
+      animation-name: toy4 ;
+      width:  18.38vw;
+      top:  265vw;;
+      left: 74vw;
+      position: absolute;
+    }
+    .dogglaz {
+      top: 246.5vw;
+    }
+}

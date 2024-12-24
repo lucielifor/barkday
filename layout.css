@@ -1,0 +1,420 @@
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "montserrat-alternates";
+    background-color: rgb(39, 175, 220);
+    overflow-x: hidden;
+    width: 100%;
+    height: min-content;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .heder {
+    display: flex;
+    flex-direction: column;
+  }
+  .bones {
+    justify-content: center;
+    top: -2vw;
+    position: relative;
+    display: flex;
+  }
+  .bones img {
+   margin-right: 0vw;
+    width: 32.7vw;
+  }
+  .h_h1{
+    width: 29ch;
+left: 12vw;
+position: relative;
+    font-size: 21.12676056338028vw;
+    font-family: "SondrinaSolid";
+color: rgb(255, 154, 86);
+white-space: nowrap; /* не переносить текст на другую строку */
+  overflow: hidden; /* скрываем переполнение контентом */
+  border-right: 3px solid white; /* рисуем курсор */
+animation: cursor 0.6s step-end infinite, printed_text  infinite 4s steps(20);
+}
+
+
+
+
+
+  .dog_txt {
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .block1 {
+    text-align: center;
+    align-items: center;
+    margin-top: 2vw;
+    justify-content: center;
+    display: flex;
+  }
+  .dog_txt h1  {
+    margin-bottom: 10vw;
+    font-size: 6.7vw;
+    font-family: "montserrat-alternates";
+
+color: rgb(255, 255, 255);
+  }
+.dog_flex img{
+  margin-top: 3vw;
+    width: 53vw;
+}
+  .dog_txt p  {
+    text-transform: uppercase;
+    line-height: 7vw;
+    font-size: 5vw;
+    font-family: "montserrat-alternates";
+
+color: white;
+  }
+  .oblaka_1{
+    top: 56vw;
+    left: 62vw;
+    width: 34vw;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.8;
+  }
+  .oblaka_2{
+    opacity: 0.8;
+    top: 85vw;
+    left: 60vw;
+    width: 35vw;
+    z-index: 2;
+    position: absolute;
+  }
+
+
+  .glaz1 {
+    position: absolute;
+    border-radius: 100%;
+    background: rgb(238, 246, 227);
+    width: 4.637vw;
+height: 9.216vw;
+left: 35.747vw;
+top: 72.759vw;
+
+
+
+animation-name: circle-to-square;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate  ;
+  transition-timing-function:linear;
+animation-timing-function: ease-in;
+  animation-delay: 2s;
+  
+  }
+
+
+
+
+ 
+  
+  .glaz2 {
+    position: absolute;
+    border-radius: 100%;
+    background: rgb(238, 246, 227);
+    width: 4.637744034707159vw;
+height: 9.217vw;
+left: 24.747vw;
+top: 72.759vw;
+
+
+
+animation-name: circle-to-square;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate  ;
+  transition-timing-function:linear;
+  animation-delay: 2s;
+animation-timing-function: ease-in;
+  
+  }
+
+
+
+
+ 
+
+
+  .d {
+    padding: 2.5vw;
+    width: 24vw;
+    height: 24vw;
+    background: rgb(255, 154, 86);
+    border-radius: 100%;
+  }
+  .block2 {
+    margin-top: 10vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .block2_right {
+    margin-left: 30vw;
+  }
+
+  .d {
+    width: 24vw;
+    animation-name: rotation ;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+  }
+
+
+  .lapa {
+    width: 20vw;
+    margin-left: -20vw;
+    position: absolute;
+    animation: fade 1.5s ease infinite;
+    animation-direction:alternate;
+  }
+
+
+
+
+  .block3 {
+ padding-top: 2vw;
+    margin-top: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 83.297vw;
+    background: rgb(255, 154, 86);
+  }
+  .block3 h1{
+    width: max-content;
+    text-align: center;
+    font-size: 5.6vw;
+    font-family: "montserrat-alternates";
+    color: white;
+  }
+  .dog_footer {
+    z-index: 1;
+    margin-top: 2vw;
+    width: 35vw;
+    animation: shake 3s;
+
+    /* Когда анимация будет закончена, начните снова */
+    animation-iteration-count: infinite;
+    
+  }
+
+  .hcost {
+    margin-top: 72vw;
+    left: 33vw;
+    position: absolute;
+    width: 20vw;
+animation-name: dog;
+    animation-duration:1.7s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.5s;
+    animation-direction: alternate;
+   
+  }
+
+
+
+  .dogglaz { 
+    animation: shake 3s;
+
+    /* Когда анимация будет закончена, начните снова */
+    animation-iteration-count: infinite;
+    z-index: 2;
+    width: 11vw;
+    top: 181.5vw;
+    left: 47vw;
+    position: absolute;
+  }
+
+  .txtbl2 {
+   
+    font-size: 2vw;
+  }
+.txt-block2 {
+    position: absolute;
+    top: 190vw;
+}
+.txtbl2 { font-family: "montserrat-alternates";
+    color: white;
+    position: relative;
+    font-size:  5.712vw;
+}
+.t1 {
+  top: 25.5vw;
+  left: 43.5vw;
+}
+.t2 {
+    top: -14vw;
+    left: 38vw;
+}
+.t3 {
+  left: -25vw;
+  transform: rotate(-25.05deg);
+  top: -24vw;
+
+}
+.t4 {
+  left: -30vw;
+
+  top: 11vw;
+}
+
+.timg1 {
+  width: 11.73vw;
+  top: 165vw;
+  left: 10vw;
+  position: absolute;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-name: toy1 ;
+}
+
+
+.timg2 {
+  width: 17vw;
+  top: 205vw;
+  left: 7vw;
+  position: absolute;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-name: toy2 ;
+}
+
+.timg3{ animation-duration: 0.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-name: toy3 ;
+  width:  18.38vw;
+  top: 165vw;
+  left: 74vw;
+  position: absolute;
+}
+
+.timg4 {
+  animation-duration: 2.2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-name: toy4 ;
+  width:  18.38vw;
+  top: 195vw;
+  left: 74vw;
+  position: absolute;
+}
+
+.marquee-container{
+    display: flex;
+    align-items: center;
+    
+    overflow: hidden;
+}
+.marquee-container {
+    padding: 1vw 0vw;
+}
+.txtfoot{
+    font-size: 7vw;
+    line-height: 1.3;
+    font-family: "montserrat-alternates";
+    padding: 0px 0;
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+    animation: txtfoot 16s infinite linear; /* notice the infinite */
+}
+.txtfoot:after{
+    content: "ГАВ ГАВ ГАВ ГАВ ГАВ ГАВ ГАВ ГАВ";
+}
+
+
+.vsha_logo {
+  width: 15.57vw;
+  position: relative;
+  left: 3.9vw;
+}
+.footer_txt {
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-family: "montserrat-alternates";
+font-size: 3.9vw;
+font-weight: 300;
+letter-spacing: 0%;
+text-align: left;
+left: 2vw;
+margin-bottom: 0.8vw
+}
+
+
+
+
+
+
+
+
+
+
+.wrap {
+  max-width: 46.9vw;
+  margin: auto;
+  padding: 0vw;
+}
+.items-wrap {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  gap: 20px;
+}
+
+.items {
+  flex-shrink: 0;
+  display: flex;
+  gap: 1vw;
+  counter-reset: item;
+  justify-content: space-around;
+  min-width: 100vw;
+}
+.item {
+  background: #00000000;
+  flex: 0 0 auto;
+  width: 40vw;
+
+  counter-increment: item;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: bold;
+  color: #fff;
+  margin: 0vw 0;
+  transition: all 0.1s ease-in-out;
+}
+
+.marquee {
+  animation: scroll 20s linear infinite;
+}
+
+
+
+
+
+
+
+.vsha_logo1 {
+  width: 50vw;
+}
+
+

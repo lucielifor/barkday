@@ -1,0 +1,13 @@
+
+@font-face {
+    font-family: "montserrat-alternates";
+    src: url("../fonts/montserrat-alternates-regular.ttf")  format('truetype'),
+    url('../fonts/montserrat-alternates-regular.woff') format('woff');
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "SondrinaSolid";
+    src: url("../fonts/LondrinaSolid-Light.ttf")  format('truetype'),
+    url('../fonts/LondrinaSolid-Light.woff') format('woff');
+    font-style: normal;
+  }
